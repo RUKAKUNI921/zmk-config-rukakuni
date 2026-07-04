@@ -24,10 +24,10 @@
         // Studio fills these in; they don't take effect in normal builds.
         reserved_layer_1 {
             bindings = <
-                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &kp 3 &kp 2 &kp 1
-                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &kp 6 &kp 5 &kp 4
-                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &kp 9 &kp 8 &kp 7
-                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &kp 0
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &kp N3 &kp N2 &kp N1
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &kp N6 &kp N5 &kp N4
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &kp N9 &kp N8 &kp N7
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &kp N0
             >;
         };
 
