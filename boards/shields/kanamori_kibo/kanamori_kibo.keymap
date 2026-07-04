@@ -16,7 +16,7 @@
                 &kp ESC &kp Q  &kp W  &kp E  &kp R  &kp T                     &kp MINUS   &kp P     &kp O     &kp I  &kp U  &kp Y
                 &kp TAB  &kp A  &kp S  &kp D  &kp F  &kp G                    &kp RBKT   &kp LBKT  &kp L     &kp K  &kp J  &kp H
                 &kp LSHIFT  &kp Z  &kp X  &kp C  &kp V  &kp B                 &kp FSLH   &kp DOT   &kp COMMA &kp M  &kp N   &kp B
-                &kp LCTRL  &kp LGUI  &kp LALT  &kp RET &kp LGUI &kp N      &kp LG(SPACE)  &kp BSPC &tog 2   &kp SPACE &kp DEL &kp CAPS
+                &kp LCTRL  &kp LGUI  &kp LALT  &kp RET &kp LGUI &kp N      &kp LG(SPACE)  &kp BSPC &kp EQUAL   &kp SPACE &kp DEL &kp CAPS
             >;
         };
 
@@ -24,22 +24,42 @@
         // Studio fills these in; they don't take effect in normal builds.
         reserved_layer_1 {
             status = "disabled";
-            bindings = <>;
+            bindings = <
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+            >;
         };
 
         reserved_layer_2 {
             status = "disabled";
-            bindings = <>;
+            bindings = <
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+            >;
         };
 
         reserved_layer_3 {
             status = "disabled";
-            bindings = <>;
+            bindings = <
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+            >;
         };
 
         reserved_layer_4 {
             status = "disabled";
-            bindings = <>;
+            bindings = <
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+            >;
         };
     };
 };
