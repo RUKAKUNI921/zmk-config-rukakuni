@@ -1,0 +1,5 @@
+config SHIELD_KANAMORI_KIBO_LEFT
+    def_bool $(shields_list_contains,kanamori_kibo_left)
+
+config SHIELD_KANAMORI_KIBO_RIGHT
+    def_bool $(shields_list_contains,kanamori_kibo_right)
