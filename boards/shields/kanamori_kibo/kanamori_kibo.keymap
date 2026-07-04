@@ -23,7 +23,6 @@
         // Reserved (disabled) layer slots so ZMK Studio has room to add layers.
         // Studio fills these in; they don't take effect in normal builds.
         reserved_layer_1 {
-            status = "disabled";
             bindings = <
                 &trans &trans &trans &trans &trans &trans      &trans &trans &trans &kp 3 &kp 2 &kp 1
                 &trans &trans &trans &trans &trans &trans      &trans &trans &trans &kp 6 &kp 5 &kp 4
