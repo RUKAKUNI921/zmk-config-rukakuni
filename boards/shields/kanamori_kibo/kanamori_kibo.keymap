@@ -16,7 +16,7 @@
                 &kp ESC &kp Q  &kp W  &kp E  &kp R  &kp T                     &kp MINUS   &kp P     &kp O     &kp I  &kp U  &kp Y
                 &kp TAB  &kp A  &kp S  &kp D  &kp F  &kp G                    &kp RBKT   &kp LBKT  &kp L     &kp K  &kp J  &kp H
                 &kp LSHIFT  &kp Z  &kp X  &kp C  &kp V  &kp B                 &kp SEMI &kp FSLH   &kp DOT   &kp COMMA   &kp M   &kp N
-                &kp LCTRL  &mo 1  &kp LALT  &kp RET &kp LGUI &kp N      &kp LS(SPACE)  &kp BSPC &kp EQUAL   &kp SPACE &kp DEL &kp CAPS
+                &kp LCTRL  &mo 1  &kp LALT  &kp RET &kp DEL &kp LEFT      &kp LS(SPACE)  &kp SQT &kp EQUAL   &kp SPACE &kp BSPC &kp RIGHT
             >;
         };
 
@@ -24,10 +24,10 @@
         // Studio fills these in; they don't take effect in normal builds.
         reserved_layer_1 {
             bindings = <
-                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &kp N3 &kp N2 &kp N1
-                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &kp N6 &kp N5 &kp N4
-                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &kp N9 &kp N8 &kp N7
-                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &kp N0
+                &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6      &trans &trans &kp N0 &kp N9 &kp N8 &kp N7
+                &kp N4 &kp N5 &kp N6 &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+                &kp N7 &kp N8 &kp N9 &kp N0 &trans &trans      &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
             >;
         };
 
